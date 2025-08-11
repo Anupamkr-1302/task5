@@ -112,4 +112,4 @@ minikube stop
 ---
 
 ## 📜 License
-This project is for educational purposes as part of Task 5 DevOps/Kubernetes training.
+This project is for educational purposes as part of Task 5 DevOps Elevate Labs Internship Programme.
