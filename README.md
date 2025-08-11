@@ -82,19 +82,19 @@ You should now see **3 pods** running.
 ### 1. minikube status
 ![minikube status](1.png)
 
-### 2. kubectl get nodes (shows Ready node)
+### 2. kubectl get nodes
 ![kubectl get nodes](2.png)
 
-### 3. kubectl get pods (1 pod running after first apply)
+### 3. kubectl get pods
 ![kubectl get pods](3.png)
 
-### 4. kubectl get svc (NodePort with port number)
+### 4. kubectl get svc 
 ![kubectl get svc](4.png)
 
-### 5. Browser showing Nginx welcome page from Minikube URL
+### 5. Nginx welcome page from Minikube URL
 ![Nginx welcome page](5.png)
 
-### 6. kubectl scale deployment hello-nginx --replicas=3 command + kubectl get pods showing 3 pods
+### 6. kubectl scale deployment hello-nginx --replicas=3 + kubectl get pods showing 3 pods
 ![Scaling to 3 replicas](6.png)
 
 ### 7. kubectl describe deployment hello-nginx
